@@ -1,0 +1,20 @@
+[
+  {
+    "id": "flight-001",
+    "flightNumber": "AA101",
+    "aircraft": "Boeing 737",
+    "route": "JFK-LAX",
+    "plannedFuel": 5000,
+    "dispatchStaff": "STAFF001",
+    "departureTime": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "flight-002",
+    "flightNumber": "AA102",
+    "aircraft": "Airbus A320",
+    "route": "LAX-JFK",
+    "plannedFuel": 4500,
+    "dispatchStaff": "STAFF002",
+    "departureTime": "2024-01-15T10:00:00Z"
+  }
+]

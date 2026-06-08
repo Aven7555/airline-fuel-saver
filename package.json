@@ -1,0 +1,16 @@
+{
+  "name": "airline-fuel-saver",
+  "version": "0.1.0",
+  "description": "Airlines Fuel Saving and Staff Reward Tool",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && node --watch server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && node server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
